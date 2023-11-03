@@ -6,10 +6,11 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>MySite.com</title>
+    <link rel="stylesheet" href="/resources/css/app.css">
 </head>
 <body>
     <h1>MYSITE.COM</h1>
 {{-- VIEW OUTPUT --}}
-@yield('content')
+    {{$slot}}
 </body>
 </html>
